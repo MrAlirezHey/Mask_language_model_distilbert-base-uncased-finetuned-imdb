@@ -11,4 +11,8 @@ Our evaluation metric is perplexity, which is commonly used for generative model
 We chose this metric because, in tasks like masked language modeling, the model isn't predicting a single label. Instead, it outputs probabilities over many possible tokens, and we're interested in whether the model gives high probability to the correct masked word.
 
 result of our training=Perplexity: 9.51
+
+
+
+
 hugging face=Alireza0017/distilbert-base-uncased-finetuned-imdb
